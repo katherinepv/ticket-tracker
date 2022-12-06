@@ -5,4 +5,18 @@
     padding: 1rem;
     margin: 1rem;
     text-align: left;
+    background-color: $color-background;
+    color: $color-primary;
+    font-size: 1.5rem;
+
+    .ticket__name {
+        color: $color-primary;
+        font-size: 1.5rem;
+    }
+
+    .ticket__role {
+        font-size: 1rem;
+        color: $color-foreground;
+
+    }
 }
