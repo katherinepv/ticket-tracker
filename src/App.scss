@@ -1,0 +1,34 @@
+@use "./assets/sass/reset";
+@use "./assets/sass/_variables";
+
+.App {
+    margin: 1rem;
+    border-style: solid;
+    text-align: center;
+    background-color: $color-primary;
+
+    font-family: "Kanit", Arial, Helvetica, sans-serif;
+
+    .ticket-container {
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .App {
+        margin: 1rem;
+        border-style: solid;
+        text-align: center;
+
+        .ticket-container {
+            padding: 1rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+
+        }
+    }
+}
