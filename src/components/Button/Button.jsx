@@ -1,8 +1,8 @@
 import "./Button.scss";
 
-const Button = (props) => {
-  const buttonText = props.buttonText;
-  return <button>{buttonText}</button>;
+const Button = ({ buttonText, onClick }) => {
+  // const buttonText = buttonText;
+  return <button onClick={onClick}>{buttonText}</button>;
 };
 
 export default Button;
