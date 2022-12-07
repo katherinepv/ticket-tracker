@@ -19,7 +19,6 @@ const App = () => {
         <SearchBar />
         <DropdownBox />
       </div>
-
       <main className="ticket-container">{ticketJSX}</main>
     </div>
   );
