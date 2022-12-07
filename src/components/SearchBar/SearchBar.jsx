@@ -13,7 +13,7 @@ const SearchBar = () => {
   return (
     <>
       <label htmlFor="name-search">Search for employee name: </label>
-      <input id="name-search" type="text" />
+      <input className="name-search__input" id="name-search" type="text" />
     </>
   );
 };

@@ -1,0 +1,9 @@
+@use "../../assets/sass/variables" as *;
+
+.dropdown-box {
+    .dropdown-box__options {
+        font-size: 1rem;
+        font-family: $primary;
+        color: $color-foreground;
+    }
+}
